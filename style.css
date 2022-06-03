@@ -45,7 +45,7 @@ header {
 }
 
 /* manu-bar section */
-header .menu-bar {
+/* header .menu-bar {
     position: absolute;
     top: 30vh;
     right: -200px;
@@ -63,6 +63,21 @@ header .menu-bar {
 header .menu-bar.active {
     right: -20px;
     opacity: 1;
+} */
+
+header .menu-bar {
+    position: absolute;
+    top: 30vh;
+    right: -20px;
+    background-color:#000;
+    width: 130px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    box-shadow: var(--box-shadow);
+    opacity: 1;
 }
 
 header .menu-bar li {
@@ -72,7 +87,7 @@ header .menu-bar li {
 header .menu-bar li a {
     color: white;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 header .book-open-btn {
@@ -80,7 +95,7 @@ header .book-open-btn {
 }
 
 header .book-open-btn.active {
-    display: block;
+    display: none;
 }
 
 header .book-close-btn.active {
@@ -261,6 +276,21 @@ header img {
     width: 100%;
 }
 
+.checksas {
+    margin-right: 7px;
+    margin-bottom: 0!important;
+}
+
+details > div {
+    background-color: #fafafa;
+    padding: 20px;
+    color: #000;
+}
+
+details > div > span {
+    font-weight: bold;
+}
+
 
 /* footer section */
 footer {
@@ -319,6 +349,42 @@ footer a:hover {
         font-size: 2rem;
     }
 
+    header .menu-bar {
+        position: absolute;
+        top: 30vh;
+        right: -200px;
+        background-color:#000;
+        width: 170px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2rem;
+        box-shadow: var(--box-shadow);
+        opacity: 0;
+    }
+    
+    header .menu-bar.active {
+        right: -20px;
+        opacity: 1;
+    } 
+
+    header .menu-bar li a { 
+        font-size: 2rem;
+    }
+
+    header .book-open-btn {
+        display: none;
+    }
+    
+    header .book-open-btn.active {
+        display: block;
+    }
+    
+    header .book-close-btn.active {
+        display: none;
+    }
+
     /* company section */
     .company-info {
         text-align: center !important;
@@ -343,6 +409,12 @@ footer a:hover {
     .contact h2 {
         font-size: 4.6rem;
         text-align: center;
+    }
+
+    .checksas {
+        width: 12px;
+        height: 20px;
+        margin-right: 4px;
     }
 
     /* footer section */
