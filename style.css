@@ -102,7 +102,7 @@ header img {
 
 /* hero section */
 .hero {
-    background-image: url(image/1.jpg);
+    background-image: url(image/heaven-story.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -167,7 +167,7 @@ header img {
 
 /* company section */
 .company {
-    background-image: url(image/5.jpg);
+    background-image: url(image/water-1283963_1920.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -196,18 +196,6 @@ header img {
     position: absolute;
     top: 70%;
     left: 7%;
-}
-
-.company-info .more a {
-    font-size: 1.7rem;
-    color: white;
-    padding: 0.6rem;
-    display: inline-block;
-}
-
-.company-info .more a:hover {
-    color: aquamarine;
-    transform: translateX(1rem);
 }
 
 /* hardware section */
@@ -258,7 +246,7 @@ header img {
 
 /* contact section */
 .contact {
-    background-image: url(image/6.jpg);
+    background-image: url(image/house.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -270,14 +258,7 @@ header img {
 }
 
 .contact textarea {
-    width: 70%;
-}
-
-.contact .vision-sight-logo h3 {
-    position: absolute;
-    bottom: 10%;
-    right: 8%;
-    font-size: 4rem;
+    width: 100%;
 }
 
 
@@ -356,10 +337,6 @@ footer a:hover {
     .company-info p {
         line-height: 5rem;
         font-size: 2.2rem;
-    }
-
-    .company-info .more {
-        margin-top: 9rem;
     }
 
     /* contact section */
