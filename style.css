@@ -41,7 +41,7 @@ header {
     padding: 2.7rem 5.4rem;
     text-shadow: black 1px 3px 6px;
     z-index: 1000;
-    /* position: fixed; */
+    position: fixed; 
 }
 
 /* manu-bar section */
